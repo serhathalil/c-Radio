@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioCsharp", "RadioCsharp\RadioCsharp.csproj", "{F14A442F-460C-408A-80C4-C06C7A9318CD}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "SetupRadio", "SetupRadio\SetupRadio.isproj", "{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F14A442F-460C-408A-80C4-C06C7A9318CD} = {F14A442F-460C-408A-80C4-C06C7A9318CD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{F14A442F-460C-408A-80C4-C06C7A9318CD}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.Debug|Any CPU.ActiveCfg = DVD-5
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.Debug|Any CPU.Build.0 = DVD-5
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.DVD-5|Any CPU.Build.0 = DVD-5
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.Release|Any CPU.ActiveCfg = SingleImage
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.Release|Any CPU.Build.0 = SingleImage
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{E4BCC13A-D91A-4FB8-ADE4-99FF749EBF21}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
